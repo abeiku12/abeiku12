@@ -1,47 +1,93 @@
-# 👋 Hi, I'm Jonas Henri Cobbah  
+import React from "react";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-### 🚀 Cloud & DevOps Engineer | Site Reliability Engineer (SRE) | Infrastructure Automation  
+const Home = () => {
+  return (
+    <div className="container mx-auto p-6">
+      <header className="text-center">
+        <h1 className="text-4xl font-bold">Jonas Henri Cobbah</h1>
+        <p className="text-lg text-gray-600 mt-2">
+          🚀 Cloud & DevOps Engineer | Site Reliability Engineer (SRE) | Infrastructure Automation
+        </p>
+      </header>
 
-I am a **Cloud & DevOps Engineer** with 5+ years of experience designing and automating scalable infrastructure for high-traffic SaaS platforms. My expertise spans **Kubernetes orchestration, CI/CD pipeline optimization, cloud security, and site reliability engineering (SRE)**. I am passionate about **bridging development and operations** to create resilient, secure, and highly available systems.
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold">🔧 Technical Expertise</h2>
+        <ul className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4 text-gray-700">
+          <li><strong>Cloud & Infrastructure:</strong> AWS | Azure | GCP | OpenStack</li>
+          <li><strong>Infrastructure as Code:</strong> Terraform | CloudFormation | AWS CDK | Ansible | Packer</li>
+          <li><strong>Containerization & Orchestration:</strong> Docker | Kubernetes (EKS, AKS, GKE) | Helm | ArgoCD | Istio</li>
+          <li><strong>CI/CD & Automation:</strong> GitHub Actions | GitLab CI | Jenkins | Spinnaker | AWS CodePipeline</li>
+          <li><strong>Monitoring & Observability:</strong> Prometheus | Grafana | CloudWatch | Datadog | ELK Stack</li>
+          <li><strong>Security & Compliance:</strong> AWS IAM | Vault | CIS Benchmarks | PCI-DSS | ISO 27001</li>
+          <li><strong>Programming & Scripting:</strong> Python | Bash | Go | PowerShell</li>
+          <li><strong>Databases & Storage:</strong> PostgreSQL | MySQL | DynamoDB | MongoDB</li>
+          <li><strong>Networking & Traffic Management:</strong> NGINX | ALB | NLB | Route 53 | Cloud DNS</li>
+        </ul>
+      </section>
 
----
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold">📌 What I Do</h2>
+        <ul className="list-disc pl-6 mt-4 text-gray-700">
+          <li>✅ Cloud Infrastructure Design & Automation with Terraform, Ansible, and Kubernetes.</li>
+          <li>✅ CI/CD Pipeline Optimization using Jenkins, GitHub Actions, and GitLab CI/CD.</li>
+          <li>✅ Site Reliability & Performance Engineering with SLOs, SLIs, and automated incident response.</li>
+          <li>✅ DevSecOps & Compliance with IAM policies and security best practices.</li>
+          <li>✅ Monitoring & Logging using Prometheus, ELK, and Datadog.</li>
+        </ul>
+      </section>
 
-## 🔧 Technical Expertise  
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold">📂 Featured Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+          <Card>
+            <CardContent>
+              <h3 className="text-xl font-semibold">AWS Terraform Modules</h3>
+              <p className="text-gray-600">A collection of Terraform modules for AWS infrastructure automation.</p>
+              <a href="https://github.com/abeiku12/aws-eks-terraform/tree/master" className="text-blue-500">View Project</a>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent>
+              <h3 className="text-xl font-semibold">Kubernetes Helm Charts</h3>
+              <p className="text-gray-600">Production-ready Helm charts for deploying cloud-native applications.</p>
+              <a href="https://github.com/abeiku12/helm" className="text-blue-500">View Project</a>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent>
+              <h3 className="text-xl font-semibold">CI/CD Pipeline Automation</h3>
+              <p className="text-gray-600">Automated CI/CD workflows using GitHub Actions and Jenkins.</p>
+              <a href="https://github.com/abeiku12/maven-web-application" className="text-blue-500">View Project</a>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
 
-- **Cloud & Infrastructure**: AWS | Azure | GCP | OpenStack  
-- **Infrastructure as Code (IaC)**: Terraform | CloudFormation | AWS CDK | Ansible | Packer  
-- **Containerization & Orchestration**: Docker | Kubernetes (EKS, AKS, GKE) | Helm | ArgoCD | Istio  
-- **CI/CD & Automation**: GitHub Actions | GitLab CI | Jenkins | Spinnaker | AWS CodePipeline  
-- **Monitoring & Observability**: Prometheus | Grafana | CloudWatch | Datadog | ELK Stack  
-- **Security & Compliance**: AWS IAM | Vault | CIS Benchmarks | PCI-DSS | ISO 27001  
-- **Programming & Scripting**: Python | Bash | Go | PowerShell  
-- **Databases & Storage**: PostgreSQL | MySQL | DynamoDB | MongoDB  
-- **Networking & Traffic Management**: NGINX | ALB | NLB | Route 53 | Cloud DNS  
+      <section className="mt-8">
+        <h2 className="text-2xl font-semibold">📫 Let's Connect</h2>
+        <div className="flex gap-4 mt-4">
+          <Button asChild>
+            <a href="https://www.linkedin.com/in/jonas-cobbah-722879335" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin className="mr-2" /> LinkedIn
+            </a>
+          </Button>
+          <Button asChild>
+            <a href="https://github.com/abeiku12" target="_blank" rel="noopener noreferrer">
+              <FaGithub className="mr-2" /> GitHub
+            </a>
+          </Button>
+          <Button asChild>
+            <a href="mailto:cobbahh@gmail.com">
+              <FaEnvelope className="mr-2" /> Email
+            </a>
+          </Button>
+        </div>
+      </section>
+    </div>
+  );
+};
 
----
-
-## 📌 What I Do  
-
-✅ **Cloud Infrastructure Design & Automation** – Architecting and automating infrastructure deployments using **Terraform, Ansible, and Kubernetes**.  
-✅ **CI/CD Pipeline Optimization** – Streamlining software delivery workflows with **Jenkins, GitHub Actions, and GitLab CI/CD**.  
-✅ **Site Reliability & Performance Engineering** – Ensuring high availability and scalability with **SLOs, SLIs, and automated incident response**.  
-✅ **DevSecOps & Compliance** – Implementing security best practices, **IAM policies, and compliance frameworks** for cloud security.  
-✅ **Monitoring & Logging** – Building **observability stacks** using **Prometheus, ELK, and Datadog** to enhance system reliability.  
-
----
-
-## 📂 Featured Projects  
-
-🚀 **[AWS Terraform Modules](https://github.com/abeiku12/aws-eks-terraform/tree/master)** – A collection of Terraform modules for AWS infrastructure automation.  
-🐳 **[Kubernetes Helm Charts](https://github.com/abeiku12/helm)** – Production-ready Helm charts for deploying cloud-native applications.  
-🔍 **[CI/CD Pipeline Automation](https://github.com/abeiku12/maven-web-application)** – Automated CI/CD workflows using GitHub Actions and Jenkins.  
-
----
-
-## 📫 Let's Connect  
-
-- **LinkedIn**: [linkedin.com/in/jonas-cobbah-722879335](https://www.linkedin.com/in/jonas-cobbah-722879335)  
-- **GitHub**: [github.com/abeiku12](https://github.com/abeiku12)  
-- **Email**: cobbahh@gmail.com  
-
-💡 *I’m always open to collaborating on DevOps, SRE, and Cloud Engineering projects. Feel free to reach out!*  
+export default Home;
