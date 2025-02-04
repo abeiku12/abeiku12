@@ -10,7 +10,7 @@
 
   <h3>🚀 Cloud & DevOps Engineer | Site Reliability Engineer (SRE) | Infrastructure Automation</h3>
 
-  <p>I am a <strong>Cloud & DevOps Engineer</strong> with 8+ years of experience designing and automating scalable infrastructure for high-traffic SaaS platforms. My expertise spans <strong>Kubernetes orchestration, CI/CD pipeline optimization, cloud security, and site reliability engineering (SRE)</strong>. I am passionate about <strong>bridging development and operations</strong> to create resilient, secure, and highly available systems.</p>
+  <p>I am a <strong>Cloud & DevOps Engineer</strong> with many years of experience designing and automating scalable infrastructure for high-traffic SaaS platforms. My expertise spans <strong>Kubernetes orchestration, CI/CD pipeline optimization, cloud security, and site reliability engineering (SRE)</strong>. I am passionate about <strong>bridging development and operations</strong> to create resilient, secure, and highly available systems.</p>
 
   <hr>
 
