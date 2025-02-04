@@ -69,6 +69,10 @@
     <li><strong>Email</strong>: <a href="mailto:cobbahh@gmail.com">cobbahh@gmail.com</a></li>
   </ul>
 
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=abeiku12&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" />
+  </p>
+
   <p>💡 <em>I’m always open to collaborating on DevOps, SRE, and Cloud Engineering projects. Feel free to reach out!</em></p>
 </body>
 </html>
