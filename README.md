@@ -6,7 +6,7 @@
   <title>Jonas Henri Cobbah - Cloud & DevOps Engineer</title>
 </head>
 <body>
-  <h1>👋 Hi, I'm Jonas Henri Cobbah</h1>
+  <h1>👋 Hi, I'm Jonas Cobbah</h1>
 
   <h3>🚀 Cloud & DevOps Engineer | Site Reliability Engineer (SRE) | Infrastructure Automation</h3>
 
